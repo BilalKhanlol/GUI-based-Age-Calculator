@@ -31,7 +31,7 @@ ig_sig="4f8732eb9ba7d1c8e8897a75d6474d4eb3f5279137431b2aafb71fafe2abe178"
 clear
 
 printf "\e[1;31;42m                    Made with Love ❤ By Neel                               \e[0m\n"	 | pv -qL 10 
-printf "\e[1;31;42m                Please Wait For The Script to Load                          \e[0m\n"	 | pv -qL 10 | 
+printf "\e[1;31;42m                Please Wait For The Script to Load                          \e[0m\n"	 | pv -qL 10  
 
 chmod +x progre.sh && ./progre.sh
 
