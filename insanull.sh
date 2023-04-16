@@ -712,5 +712,5 @@ fi
 }
 
 
-lolbanner
+lolbanner  | lolcat -a 
 menu
