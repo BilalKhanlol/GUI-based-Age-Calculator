@@ -34,7 +34,7 @@ ig_sig="4f8732eb9ba7d1c8e8897a75d6474d4eb3f5279137431b2aafb71fafe2abe178"
 lolbanner ()
 {
     echo
-    figlet -f ~/3d.flf "INSTA NULL" | lolcat -a -d 500
+    figlet -f ~3d.flf "INSTA NULL" | lolcat -a -d 500
     echo
 }
 
