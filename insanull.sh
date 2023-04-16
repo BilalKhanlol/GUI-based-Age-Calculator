@@ -620,7 +620,7 @@ menu() {
 
 printf "\n"
 printf " \e[1;32m|\e[0m\e[1;31m01\e[0m\e[1;32m|\e[0m\e[1;35m Unfollow Tracker\e[0m         \e[1;32m|\e[0m\e[1;31m02\e[0m\e[1;32m|\e[0m\e[1;36m Increase Followers\e[0m \n "  | lolcat -a 
-printf " \e[1;32m|\e[0m\e[1;31m03\e[0m\e[1;32m|\e[0m\e[1;36m Download Stories\e[0m         \e[1;32m|\e[0m\e[1;31m04\e[0m\e[1;32m|\e[0m\e[1;35m Download Saved Content\e[0m\n"  |   | lolcat -a lolcat -a 
+printf " \e[1;32m|\e[0m\e[1;31m03\e[0m\e[1;32m|\e[0m\e[1;36m Download Stories\e[0m         \e[1;32m|\e[0m\e[1;31m04\e[0m\e[1;32m|\e[0m\e[1;35m Download Saved Content\e[0m\n"   | lolcat -a 
 printf " \e[1;32m|\e[0m\e[1;31m05\e[0m\e[1;32m|\e[0m\e[1;35m Download Following List\e[0m  \e[1;32m|\e[0m\e[1;31m06\e[0m\e[1;32m|\e[0m\e[1;36m Download Followers List\e[0m\n" | lolcat -a 
 printf " \e[1;32m|\e[0m\e[1;31m07\e[0m\e[1;32m|\e[0m\e[1;36m Download Profile Info\e[0m    \e[1;32m|\e[0m\e[1;31m08\e[0m\e[1;32m|\e[0m\e[1;35m Activate Unfollower\e[0m\n"    | lolcat -a 
 printf "                   \e[1;31;42m ONLY FOR PRO MEMBERS \e[0m                              \n"											
