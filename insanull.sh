@@ -1,16 +1,11 @@
 #!/bin/bash
-sudo apt-get install 
 
-apt-get update
-apt-get upgrade
-apt-get install figlet -y
+apt install figlet -y
 figlet Basic Installation
-apt-get install toilet -y
-apt-get install cowsay -y
-apt-get install nano -y
-apt-get install ruby -y
-gem-get install lolcat
+apt install ruby -y
+gem install lolcat
 
+clear 
 
 C #!/bin/bash
 # Inshackle v1.0
@@ -37,8 +32,9 @@ ig_sig="4f8732eb9ba7d1c8e8897a75d6474d4eb3f5279137431b2aafb71fafe2abe178"
 
 
 
-banner() {
-echo I ❤ Tecmint | lolcat -a -d 500
+banner()
+{
+echo I ❤ InstaNull | lolcat -a -d 500
 printf "                                                                    \n"     
 printf "\e[0;31mo o    o .oPYo. ooooo      .oo\e[1;34m o    o o    o o     o   \e[0m\n"     
 printf "\e[0;31m8 8b   8 8        8       .P 8\e[1;34m 8b   8 8    8 8     8   \e[0m\n"  
@@ -49,7 +45,7 @@ printf "\e[031m8 8    8  YooP'   8   .P     8\e[1;34m 8    8  YooP' 8oooo 8ooo\e
 printf "\e[1;93m|::::::::::::::::::=======\e[1;95m=====:::::::::::::::::::::::|\e[0m\n"
 printf "\e[1;93m|:::::::::::::::::| \e[0;10mVERSON:3.7\e[1;95m |::::::::::::::::::::::|\e[0m\n"
 printf "\e[1;93m|:::::::::::::::::|______\e[1;95m______|::::::::::::::::::::::|\e[0m\n"
-printf "\e[1;31m[\e[0m\e[1;77mv1.0\e[0m\e[1;31m]\e[0m\e[1;77m recoded by cyber kallan (thanks to linuxchoice )\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77mv1.0\e[0m\e[1;31m]\e[0m\e[1;77m recoded by e[031m8AzureCraft\e[1;34m (thanks to linuxchoice )\e[0m\n"
 }
 
 
