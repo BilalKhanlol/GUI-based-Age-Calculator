@@ -1,3 +1,17 @@
+#!/bin/bash
+sudo apt-get install 
+
+apt-get update
+apt-get upgrade
+apt-get install figlet -y
+figlet Basic Installation
+apt-get install toilet -y
+apt-get install cowsay -y
+apt-get install nano -y
+apt-get install ruby -y
+gem-get install lolcat
+
+
 C #!/bin/bash
 # Inshackle v1.0
 # recoded by: CYBER KALLAN
@@ -24,16 +38,17 @@ ig_sig="4f8732eb9ba7d1c8e8897a75d6474d4eb3f5279137431b2aafb71fafe2abe178"
 
 
 banner() {
-printf " \e[0;10m                                                        \e[0m\n"     
-printf " \e[0;31m o o    o .oPYo. ooooo      .oo o    o o    o o     o   \e[0m\n"     
-printf " \e[0;32m 8 8b   8 8        8       .P 8 8b   8 8    8 8     8   \e[0m\n"  
-printf " \e[0;33m 8 8 b  8 Yuooo.   8      .P  8 8 b  8 8    8 8     8   \e[0m\n"  
-printf " \e[0;34m 8 8  b 8      8   8     oPooo8 8  b 8 8    8 8     8   \e[0m\n"  
-printf " \e[0;35m 8 8   b8      8   8    .P    8 8   b8 8    8 8     8   \e[0m\n"  
-printf " \e[4;36m 8 8    8  YooP'   8   .P     8 8    8  YooP' 8oooo 8ooo\e[0m\n" 
-printf " \e[1;93m :::::::::::::::::::____________ :::::::::::::::::::::::\e[0m\n"
-printf " \e[1;95m ::::::::::::::::--| \e[0;10mVERSON:3.7\e[1;95m |---:::::::::::::::::::\e[0m\n"
- printf "\e[1;97m :::::::::::::::::::|____________|::::::::::::::::::::::::\e[0m\n"
+echo I ❤ Tecmint | lolcat -a -d 500
+printf "                                                                    \n"     
+printf "\e[0;31mo o    o .oPYo. ooooo      .oo\e[1;34m o    o o    o o     o   \e[0m\n"     
+printf "\e[0;31m8 8b   8 8        8       .P 8\e[1;34m 8b   8 8    8 8     8   \e[0m\n"  
+printf "\e[0;31m8 8 b  8 Yuooo.   8      .P  8\e[1;34m 8 b  8 8    8 8     8   \e[0m\n"  
+printf "\e[0;31m8 8  b 8      8   8     oPooo8\e[1;34m 8  b 8 8    8 8     8   \e[0m\n"  
+printf "\e[0;31m8 8   b8      8   8    .P    8\e[1;34m 8   b8 8    8 8     8   \e[0m\n"  
+printf "\e[031m8 8    8  YooP'   8   .P     8\e[1;34m 8    8  YooP' 8oooo 8ooo\e[0m\n" 
+printf "\e[1;93m|::::::::::::::::::=======\e[1;95m=====:::::::::::::::::::::::|\e[0m\n"
+printf "\e[1;93m|:::::::::::::::::| \e[0;10mVERSON:3.7\e[1;95m |::::::::::::::::::::::|\e[0m\n"
+printf "\e[1;93m|:::::::::::::::::|______\e[1;95m______|::::::::::::::::::::::|\e[0m\n"
 printf "\e[1;31m[\e[0m\e[1;77mv1.0\e[0m\e[1;31m]\e[0m\e[1;77m recoded by cyber kallan (thanks to linuxchoice )\e[0m\n"
 }
 
@@ -598,13 +613,13 @@ printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;93m Saved:\e[0m\e[1;77m %
 menu() {
 
 printf "\n"
-printf " \e[1;32m[\e[0m\e[1;31m01\e[0m\e[1;32m]\e[0m\e[1;35m Unfollow Tracker\e[0m         \e[1;32m[\e[0m\e[1;31m02\e[0m\e[1;32m]\e[0m\e[1;36m Increase Followers\e[0m\n"
-printf " \e[1;32m[\e[0m\e[1;31m03\e[0m\e[1;32m]\e[0m\e[1;36m Download Stories\e[0m         \e[1;32m[\e[0m\e[1;31m04\e[0m\e[1;32m]\e[0m\e[1;35m Download Saved Content\e[0m\n"
-printf " \e[1;32m[\e[0m\e[1;31m05\e[0m\e[1;32m]\e[0m\e[1;35m Download Following List\e[0m  \e[1;32m[\e[0m\e[1;31m06\e[0m\e[1;32m]\e[0m\e[1;36m Download Followers List\e[0m\n"
-printf " \e[1;32m[\e[0m\e[1;31m07\e[0m\e[1;32m]\e[0m\e[1;36m Download Profile Info\e[0m    \e[1;32m[\e[0m\e[1;31m08\e[0m\e[1;32m]\e[0m\e[1;35m Activate Unfollower\e[0m\n"  
+printf " \e[1;32m|\e[0m\e[1;31m01\e[0m\e[1;32m|\e[0m\e[1;35m Unfollow Tracker\e[0m         \e[1;32m|\e[0m\e[1;31m02\e[0m\e[1;32m|\e[0m\e[1;36m Increase Followers\e[0m\n"
+printf " \e[1;32m|\e[0m\e[1;31m03\e[0m\e[1;32m|\e[0m\e[1;36m Download Stories\e[0m         \e[1;32m|\e[0m\e[1;31m04\e[0m\e[1;32m|\e[0m\e[1;35m Download Saved Content\e[0m\n"
+printf " \e[1;32m|\e[0m\e[1;31m05\e[0m\e[1;32m|\e[0m\e[1;35m Download Following List\e[0m  \e[1;32m|\e[0m\e[1;31m06\e[0m\e[1;32m|\e[0m\e[1;36m Download Followers List\e[0m\n"
+printf " \e[1;32m|\e[0m\e[1;31m07\e[0m\e[1;32m|\e[0m\e[1;36m Download Profile Info\e[0m    \e[1;32m|\e[0m\e[1;31m08\e[0m\e[1;32m|\e[0m\e[1;35m Activate Unfollower\e[0m\n"  
 printf "                   \e[1;31;42m ONLY FOR PRO MEMBERS \e[0m                              \n"											
-printf " \e[1;32m[\e[0m\e[2;31m09\e[0m\e[1;32m]\e[0m\e[2;35m Account Owner Finder\e[0m     \e[1;32m[\e[0m\e[2;31m10\e[0m\e[1;32m]\e[0m\e[2;36m Activate Blue Tick\e[0m\n"
-printf " \e[1;32m[\e[0m\e[2;31m11\e[0m\e[1;32m]\e[0m\e[2;36m Account Hacking \e[0m         \e[1;32m[\e[0m\e[2;31m12\e[0m\e[1;32m]\e[0m\e[2;35m View Private Account\e[0m\n"
+printf " \e[1;32m|\e[0m\e[2;31m09\e[0m\e[1;32m|\e[0m\e[2;35m Account Owner Finder\e[0m     \e[1;32m|\e[0m\e[2;31m10\e[0m\e[1;32m|\e[0m\e[2;36m Activate Blue Tick\e[0m\n"
+printf " \e[1;32m|\e[0m\e[2;31m11\e[0m\e[1;32m|\e[0m\e[2;36m Account Hacking \e[0m         \e[1;32m|\e[0m\e[2;31m12\e[0m\e[1;32m|\e[0m\e[2;35m View Private Account\e[0m\n"
 printf "\n"
 
 
@@ -657,27 +672,27 @@ unfollower
 elif [[ $option -eq 9 ]]; then
 
 
-printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m This Section is Only for PRO MMembers ,returning to main menu in 60 secs....\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m This Section is Only for PRO Members ,returning to main menu in 60 secs....\e[0m\n"
 sleep 2
 menu
 
 elif [[ $option -eq 10 ]]; then
 
-printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m This Section is Only for PRO MMembers ,returning to main menu in 60 secs.....\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m This Section is Only for PRO Members ,returning to main menu in 60 secs.....\e[0m\n"
 sleep 2
 menu
 
 elif [[ $option -eq 11 ]]; then
 
 
-printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m This Section is Only for PRO MMembers ,returning to main menu in 60 secs....\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m This Section is Only for PRO Members ,returning to main menu in 60 secs....\e[0m\n"
 sleep 2
 menu
 
 elif [[ $option -eq 12 ]]; then
 
     
-printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m This Section is Only for PRO MMembers ,returning to main menu in 60 secs...\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m This Section is Only for PRO Members ,returning to main menu in 60 secs...\e[0m\n"
 sleep 2
 menu
 
