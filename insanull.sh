@@ -37,7 +37,7 @@ clear
 lolbanner ()
 {
     echo
-    figlet -f standard "INSTA NULL" | lolcat -a # -d 500
+    figlet -f standard "INSTA NULL"| pv -qL 20 | lolcat -a # -d 500
     echo
 }
 
