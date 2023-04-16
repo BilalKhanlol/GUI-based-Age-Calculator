@@ -3,6 +3,7 @@
 apt install figlet -y
 figlet Basic Installation
 apt install ruby -y
+apt install pv
 gem install lolcat
 
 clear 
@@ -33,6 +34,7 @@ echo "%*s\n" $COLUMNS/2 "Made with Love ❤ By Neel"  | lolcat -a  | pv -qL 10
 echo "Please Wait For The Script to Load.......... " | lolcat -a 
 chmod +x progre.sh && ./progre.sh
 
+clear
 lolbanner ()
 {
     echo
