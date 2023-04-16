@@ -7,7 +7,6 @@ apt install pv
 gem install lolcat
 
 clear 
-
 C #!/bin/bash
 # Inshackle v1.0
 # recoded by: CYBER KALLAN
