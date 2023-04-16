@@ -29,7 +29,8 @@ ig_sig="4f8732eb9ba7d1c8e8897a75d6474d4eb3f5279137431b2aafb71fafe2abe178"
 
 
 clear
-echo "Made with Love ❤ By Neel" | pv -qL 10 | lolcat -a  
+#echo "Made with Love ❤ By Neel"
+printf "                   \e[1;31;42m Made with Love ❤ By Neel \e[0m                              \n"	 | pv -qL 10 | lolcat -a 
 echo "Please Wait For The Script to Load.......... " | pv -qL 10 | lolcat -a 
 chmod +x progre.sh && ./progre.sh
 
@@ -37,7 +38,7 @@ clear
 lolbanner ()
 {
     echo
-    figlet -f standard "INSTA NULL"| pv -qL 20 | lolcat -a # -d 500
+    figlet -f standard "INSTA NULL"| pv -qL 40 | lolcat -a # -d 500
     echo
 }
 
@@ -621,13 +622,13 @@ printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;93m Saved:\e[0m\e[1;77m %
 menu() {
 
 printf "\n"
-printf " \e[1;32m|\e[0m\e[1;31m01\e[0m\e[1;32m|\e[0m\e[1;35m Unfollow Tracker\e[0m         \e[1;32m|\e[0m\e[1;31m02\e[0m\e[1;32m|\e[0m\e[1;36m Increase Followers\e[0m \n "  | pv -qL 30
-printf " \e[1;32m|\e[0m\e[1;31m03\e[0m\e[1;32m|\e[0m\e[1;36m Download Stories\e[0m         \e[1;32m|\e[0m\e[1;31m04\e[0m\e[1;32m|\e[0m\e[1;35m Download Saved Content\e[0m\n"   | pv -qL 30
-printf " \e[1;32m|\e[0m\e[1;31m05\e[0m\e[1;32m|\e[0m\e[1;35m Download Following List\e[0m  \e[1;32m|\e[0m\e[1;31m06\e[0m\e[1;32m|\e[0m\e[1;36m Download Followers List\e[0m\n"  | pv -qL 30
-printf " \e[1;32m|\e[0m\e[1;31m07\e[0m\e[1;32m|\e[0m\e[1;36m Download Profile Info\e[0m    \e[1;32m|\e[0m\e[1;31m08\e[0m\e[1;32m|\e[0m\e[1;35m Activate Unfollower\e[0m\n"    | pv -qL 30
+printf " \e[1;32m|\e[0m\e[1;31m01\e[0m\e[1;32m|\e[0m\e[1;35m Unfollow Tracker\e[0m         \e[1;32m|\e[0m\e[1;31m02\e[0m\e[1;32m|\e[0m\e[1;36m Increase Followers\e[0m \n "  | pv -qL 60
+printf " \e[1;32m|\e[0m\e[1;31m03\e[0m\e[1;32m|\e[0m\e[1;36m Download Stories\e[0m         \e[1;32m|\e[0m\e[1;31m04\e[0m\e[1;32m|\e[0m\e[1;35m Download Saved Content\e[0m\n"   | pv -qL 60
+printf " \e[1;32m|\e[0m\e[1;31m05\e[0m\e[1;32m|\e[0m\e[1;35m Download Following List\e[0m  \e[1;32m|\e[0m\e[1;31m06\e[0m\e[1;32m|\e[0m\e[1;36m Download Followers List\e[0m\n"  | pv -qL 60
+printf " \e[1;32m|\e[0m\e[1;31m07\e[0m\e[1;32m|\e[0m\e[1;36m Download Profile Info\e[0m    \e[1;32m|\e[0m\e[1;31m08\e[0m\e[1;32m|\e[0m\e[1;35m Activate Unfollower\e[0m\n"    | pv -qL 60
 printf "                   \e[1;31;42m ONLY FOR PRO MEMBERS \e[0m                              \n"											
-printf " \e[1;32m|\e[0m\e[2;31m09\e[0m\e[1;32m|\e[0m\e[2;35m Account Owner Finder\e[0m     \e[1;32m|\e[0m\e[2;31m10\e[0m\e[1;32m|\e[0m\e[2;36m Activate Blue Tick\e[0m\n"  | pv -qL 30
-printf " \e[1;32m|\e[0m\e[2;31m11\e[0m\e[1;32m|\e[0m\e[2;36m Account Hacking \e[0m         \e[1;32m|\e[0m\e[2;31m12\e[0m\e[1;32m|\e[0m\e[2;35m View Private Account\e[0m\n"  | pv -qL 30
+printf " \e[1;32m|\e[0m\e[2;31m09\e[0m\e[1;32m|\e[0m\e[2;35m Account Owner Finder\e[0m     \e[1;32m|\e[0m\e[2;31m10\e[0m\e[1;32m|\e[0m\e[2;36m Activate Blue Tick\e[0m\n"  | pv -qL 60
+printf " \e[1;32m|\e[0m\e[2;31m11\e[0m\e[1;32m|\e[0m\e[2;36m Account Hacking \e[0m         \e[1;32m|\e[0m\e[2;31m12\e[0m\e[1;32m|\e[0m\e[2;35m View Private Account\e[0m\n"  | pv -qL 60
 printf "\n"
 
 
