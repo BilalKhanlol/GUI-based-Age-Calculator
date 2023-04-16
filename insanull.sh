@@ -28,8 +28,10 @@ var2=$(echo $var | grep -o 'csrftoken=.*' | cut -d ';' -f1 | cut -d '=' -f2)
 ig_sig="4f8732eb9ba7d1c8e8897a75d6474d4eb3f5279137431b2aafb71fafe2abe178"
 
 
-
-
+clear
+echo "%*s\n" $COLUMNS/2 "Made with Love ❤ By Neel"  | lolcat -a  | pv -qL 10
+echo "Please Wait For The Script to Load.......... " | lolcat -a 
+chmod +x progre.sh && ./progre.sh
 
 lolbanner ()
 {
@@ -38,9 +40,7 @@ lolbanner ()
     echo
 }
 
-echo Made with Love ❤ By  | lolcat -a -d 500 
-echo Neel | lolcat -a -d 500
-chmod +x progre.sh && ./progre.sh
+
 
 #banner()
 #{
