@@ -710,5 +710,5 @@ fi
 }
 
 
-banner
+lolbanner
 menu
